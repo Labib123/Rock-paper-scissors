@@ -61,16 +61,17 @@ header > h1 {
   margin-top:20px;
 }
 
+.green-glow{
+  border: 4px solid #4dcc7d;
+  box-shadow:  0 0 10px #31b43a ;
+}
+.red-glow
+{
+  border: 4px solid #fc121b;
+  box-shadow:  0 0 10px #d01115 ;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-body
+.blue-glow{
+border: 5px solid #5d8aa8;
+box-shadow:  0 0 10px #25292b ;
+}
