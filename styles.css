@@ -1,0 +1,76 @@
+*{
+  transition: 0.3s all ;
+  margin: 0  ;
+  padding: 0 ;
+  box-sizing: border-box;
+}
+body {background: #24272E}
+header{
+  background: white ;
+}
+header > h1 {
+  color: #25272E ;
+  text-align: center ;
+  font-family: Asap , sans-serif;
+}
+.score-board {
+  border: 3px solid white ;
+  width: 200px;
+  margin: 20px auto;
+  color : white ;
+  font-size:46px;
+  border-radius: 4px ;
+  text-align: center ;
+  padding: 15px 20px ;
+  font-family: Asap , sans-serif;
+  position: relative;
+}
+
+.badge{
+  background: #E2584D ;
+  font-size: 14px;
+  padding: 2px 18px ;
+  font-family: Asap sans-serif;
+}
+
+#user-label
+{
+  position: absolute;
+  top: 30px;
+  left: -25px;
+}
+#computer-label
+{
+  position: absolute;
+  top: 30px;
+  right: -24px;
+}
+.result  > p  {font-size: 40px ; color: white ; font-family: Asap sans-serif; font-weight: bold; text-align: center}
+.choices { text-align:  center; margin-top: 50px }
+.choice{display: inline-block ; margin: 0 15px ; border: 5px solid white ; border-radius: 50%; padding: 10px; transition: 0.3s ease}
+.choice:hover{
+  cursor: pointer;
+  background: red ;
+}
+.action-message{
+  text-align: center;
+  font-weight: bold ;
+  font-family: Asap sans-serif;
+  font-size: 20px;
+  color:white;
+  margin-top:20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+body
